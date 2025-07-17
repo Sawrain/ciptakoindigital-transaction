@@ -23,6 +23,6 @@ Aplikasi ini menggunakan Spring Boot, JWT, dan MySQL.
 Intellij IDEA
 
 ```bash
-git clone https://github.com/Sawrain/ciptakoindigital-transaction.git
 cd yourproject
+git clone https://github.com/Sawrain/ciptakoindigital-transaction.git
 ./mvnw spring-boot:run
