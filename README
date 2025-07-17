@@ -1,0 +1,28 @@
+# Spring Boot REST API - Transaction App
+
+Aplikasi ini menggunakan Spring Boot, JWT, dan MySQL.
+
+## Fitur
+
+- Register dan Login menggunakan JWT
+- CRUD Transaksi (Create, Update)
+- Autentikasi dan otorisasi berbasis token
+- Satu endpoint untuk create dan update transaksi
+
+## Endpoint Utama
+
+| Method | Endpoint             | Deskripsi                     |
+|--------|----------------------|-------------------------------|
+| POST   | register             | Register akun baru            |
+| POST   | login                | Login dan dapatkan token JWT  |
+| POST   | /transaction         | Melihat list Transaksi  |
+| POST   | /transaction/process | Create / Update transaksi     |
+
+## Jalankan Proyek
+
+Intellij IDEA
+
+```bash
+git clone https://github.com/Sawrain/ciptakoindigital-transaction.git
+cd yourproject
+./mvnw spring-boot:run
